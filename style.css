@@ -1,0 +1,67 @@
+:root {
+  --bg-primary: #041f32;
+}
+
+body {
+  background-color: #020621;
+}
+
+.admin h1 {
+  font-size: 54px;
+}
+
+.panel-1 p {
+  font-size: 18px;
+}
+
+.panel-2 h1 {
+  padding-top: 110px;
+}
+
+.panel-3 img {
+  margin-top: -50px;
+}
+
+.panel-3 h1 {
+  padding-top: 100px;
+}
+
+.panel-4 h1 {
+  padding-top: 200px;
+}
+
+.panel-4 img {
+  margin-top: -50px;
+}
+
+.panel-5 .gambar {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.panel-5 .gambar img {
+  width: 180px;
+}
+
+footer .social-media a {
+  color: #ffffff;
+}
+
+footer .social-media a:hover {
+  color: #50585d;
+}
+
+/* small device */
+/* Responsive */
+@media (min-width: 320px) {
+  .panel-1 h1,
+  .panel-2 h1,
+  .panel-3 h1,
+  .panel-4 h1 {
+    font-size: 64px;
+  }
+
+  .admin h1 {
+    font-size: 28px;
+  }
+}
