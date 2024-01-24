@@ -26,6 +26,10 @@ body {
   padding-top: 100px;
 }
 
+.panel-3 img {
+  width: 600px;
+}
+
 .panel-4 h1 {
   padding-top: 200px;
 }
