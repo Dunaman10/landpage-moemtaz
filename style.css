@@ -4,47 +4,40 @@
 
 body {
   background-color: #020621;
-}
-
-.admin h1 {
-  font-size: 54px;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .panel-1 p {
   font-size: 18px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.panel-1 h1,
+.panel-2 h1,
+.panel-3 h1,
+.panel-4 h1 {
+  font-size: 58px !important;
 }
 
 .panel-2 h1 {
   padding-top: 110px;
 }
 
-.panel-3 img {
-  margin-top: -50px;
-}
-
-.panel-3 h1 {
-  padding-top: 100px;
-}
-
-.panel-3 img {
-  width: 600px;
-}
-
-.panel-4 h1 {
-  padding-top: 200px;
-}
-
+.panel-3 img,
 .panel-4 img {
   margin-top: -50px;
 }
 
-.panel-5 .gambar {
-  padding-top: 100px;
-  padding-bottom: 120px;
+.panel-3 h1 {
+  padding-top: 50px;
 }
 
-.panel-5 .gambar img {
-  width: 180px;
+.panel-4 h1 {
+  padding-top: 50px;
+}
+
+.admin h1 {
+  font-size: 32px;
 }
 
 footer .social-media a {
@@ -57,15 +50,65 @@ footer .social-media a:hover {
 
 /* small device */
 /* Responsive */
-@media (min-width: 320px) {
+/* @media (max-width: 426px) {
   .panel-1 h1,
   .panel-2 h1,
   .panel-3 h1,
   .panel-4 h1 {
-    font-size: 64px;
+    font-size: 42px !important;
   }
 
   .admin h1 {
     font-size: 28px;
+  }
+
+  .panel-4 img {
+    margin-top: -50px;
+  }
+} */
+
+@media (min-width: 576px) {
+  .panel-2 h1 {
+    font-size: 72px !important;
+  }
+
+  .admin h1 {
+    font-size: 28px;
+  }
+
+  .panel-4 img {
+    margin-top: -50px;
+  }
+
+  .panel-1 img {
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .panel-1 h1,
+  .panel-2 h1,
+  .panel-3 h1,
+  .panel-4 h1 {
+    font-size: 64px !important;
+  }
+
+  .panel-1 img {
+    margin-top: -180px;
+  }
+}
+
+@media (min-width: 992px) {
+  .panel-1 h1 {
+    font-size: 82px !important;
+  }
+
+  .panel-1 img {
+    margin-top: -250px !important;
+  }
+
+  .panel-3 img,
+  .panel-4 img {
+    margin-top: -150px;
   }
 }
