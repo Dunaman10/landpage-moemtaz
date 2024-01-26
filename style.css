@@ -48,6 +48,12 @@ footer .social-media a:hover {
   color: #50585d;
 }
 
+.carousel-inner .carousel-item img {
+  max-height: 1000px;
+  width: auto;
+  margin: 0 auto;
+}
+
 /* small device */
 /* Responsive */
 /* @media (max-width: 426px) {
